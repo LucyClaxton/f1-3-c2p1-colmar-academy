@@ -1,0 +1,519 @@
+html {
+  font-family: 'Prompt', sans-serif;
+  background-color: rgb(243, 245, 245);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/*-- Header --*/
+
+.flexbox {
+  background-color: rgb(255, 255, 255);
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.flexbox img {
+  padding: 10px 10px 0 24px;
+  height: 40px;
+}
+
+.flexbox h1 {
+  text-transform: uppercase;
+  font-size: 32px;
+  float: right;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.colmar {
+    color: rgb(75, 75, 75);
+}
+
+.academy {
+  color: rgb(230, 230, 230);
+}
+
+.nav {
+  padding-right: 24px;
+}
+
+ul {
+  padding-top: 13px;
+  text-align: right;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  padding: 0 8px;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+li a {
+  color: rgb(74, 74, 74);
+}
+
+/*-- Main Banner --*/
+
+.banner {
+  background-color: rgb(216, 216, 216);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.learn {
+  flex: 1;
+  padding-left: 24px;
+}
+
+.learn h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+.learn h4 {
+  font-size: 30px;
+  color: rgb(74, 74, 74);
+  font-weight: 500;
+}
+
+.box h5 {
+  font-size: 30px;
+  text-align: center;
+  padding: 8px 0;
+  margin-right: 24px;
+}
+
+.box h5 a {
+  color: rgb(255, 255, 255);
+}
+
+/*-- Information Section --*/
+
+.information-section {
+  display: flex;
+  color: rgb(74, 74, 74);
+}
+
+.information-section .left {
+  width: 70%
+}
+
+.practice {
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.practise h1 {
+  font-size: 30px;
+}
+
+.practice h5 {
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.practice p {
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+
+.information-section .left img {
+  width: 95%;
+  margin-left: 24px;
+  margin-top: 32px;
+}
+
+.information-section .left h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(74, 74, 74);
+}
+
+
+.text-section {
+  flex-direction: column;
+  margin-top: 48px;
+}
+
+.text {
+  margin-left: 24px;
+  word-wrap: break-word;
+}
+
+.text-section h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-section h5 {
+  font-size: 18px;
+}
+
+.text-section p {
+  font-size: 18px;
+}
+
+.text a {
+  color: rgb(78, 146, 226);
+}
+
+/*-- Learning Section --*/
+
+.learning-section {
+  color: rgb(74, 74, 74);
+  padding-bottom: 32px;
+}
+
+.learning-section h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 32px 0;
+  text-align: center;
+}
+
+
+.learning-text h2 {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+/*-- Exhibit Section --*/
+
+.exhibit-section {
+  color: rgb(74, 74, 74);
+}
+
+.exhibit-section h1 {
+font-size: 40px;
+font-weight: bold;
+padding: 32px 0;
+text-align: center;
+}
+
+video {
+  max-width: 100%;
+  height: auto;
+  padding: 0 24px 24px 24px;
+}
+
+/*-- Footer --*/
+
+.footer {
+  padding: 16px 0 20px 24px;
+  color: rgb(74, 74, 74);
+}
+
+.t-and-p {
+  display: flex;
+}
+
+.t-and-p p {
+  padding-right: 8px;
+}
+
+.t-and-p a {
+  color: rgb(74, 74, 74);
+}
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+
+/*-- Header --*/
+
+  .flexbox {
+    height: 64px;
+    width: 100%;
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .title {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .name {
+    display: none;
+  }
+
+/*-- Main Banner --*/
+
+  .banner img {
+    width: 100%;
+    padding: 0;
+  }
+
+  .banner {
+    display:inline-block;
+  }
+
+  .banner h1 {
+    padding-top: 32px;
+  }
+
+  .box h5 {
+    background-color: rgb(155, 155, 155);
+  }
+
+  .box {
+    padding-bottom: 32px;
+  }
+
+/*-- Information Section --*/
+
+  .information-section .left {
+    display: none;
+  }
+
+  .right {
+    display: inline-block;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  .orientation-mobile {
+    margin: 16px 0 0 16px;
+  }
+
+  .text-section {
+    margin-left: 16px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid rgb(224, 226, 226);
+  }
+
+/*-- Learning Section --*/
+
+  .learning-section {
+    border-bottom: 1px solid rgb(216, 216, 261);
+  }
+
+  .learning-section img, .learning-section h4 {
+    display: none;
+  }
+
+  .learning-section h2 {
+    text-align: center;
+    background-color: rgb(216, 216, 216);
+    padding: 16px;
+    margin: 16px;
+  }
+
+  /*-- Exhibit Section --*/
+
+  .flex-container .text, .right {
+    display: none;
+  }
+
+  /*-- Footer --*/
+
+  .footer {
+    text-align: center;
+  }
+
+  .t-and-p {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 667px) {
+
+/*-- Header --*/
+
+  .mobile-logo1 , .mobile-logo2 , .mobile-logo3 {
+    display: none;
+  }
+
+/*-- Main Banner --*/
+
+.box h5 {
+  background-color: rgb(74, 74, 74);
+}
+
+  .banner {
+    border-bottom: 2px solid white;
+ }
+
+
+/*-- Information Section --*/
+
+  .border {
+    border: 1px solid white;
+  }
+
+  .information-section .left {
+    border-right: 2px solid rgb(224, 226, 226);
+  }
+
+  .orientation {
+    border-bottom: 2px solid rgb(224, 226, 226);
+    border-left: 2px solid white;
+  }
+
+  .campus {
+    border-top: 2px solid rgb(224, 226, 226);
+    border-left: 2px solid white;
+  }
+
+  .information-section .right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .information-image {
+    display: flex;
+  }
+
+  .information-section .right .img-container {
+    margin: 8px 16px;
+    width: 50%;
+    display: flex;
+  }
+
+  .information-mobile {
+    display: none;
+  }
+
+  .lecture {
+    background-color: rgb(224, 226, 226);
+  }
+
+  /*-- Learning Section --*/
+
+  .learning-section {
+    background-color: rgb(234, 235, 236);
+  }
+
+  .learning-images1 {
+    display: flex;
+    margin: 32px 72px 42px 72px;
+  }
+
+  .learning-images2 {
+    display: flex;
+    margin: 32px 72px 42px 72px;
+  }
+
+  .learning-section img {
+    height: auto;
+    width: 410px;
+  }
+
+  .image2 {
+    margin: 0 32px 0 32px;
+  }
+
+  .image5 {
+    margin: 0 32px 0 32px;
+  }
+
+  .learning-text {
+    background-color: white;
+    padding: 16px 0 24px 16px;
+    height: 130px;
+  }
+  .learning-text h4 {
+    font-size: 20px;
+    padding: 8px 0;
+  }
+
+  .courses {
+    text-transform: uppercase;
+  }
+
+  /*-- Exhibit Section --*/
+
+  .exhibit-section .flex-container {
+    display: flex;
+  }
+
+  .exhibit-section .left {
+    width: 60%;
+  }
+
+   .exhibit-section .left .text p {
+     font-size: 18px;
+   }
+
+  .exhibit-section .left h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 8px;
+  }
+
+  .exhibit-section .left p {
+    padding-bottom: 32px;
+  }
+
+  .exhibit-section .right {
+    width: 40%;
+    margin-left: 48px;
+  }
+
+  .right .section1 {
+    background-color: rgb(224, 226, 226);
+    display: flex;
+  }
+
+  .exhibit-section img {
+    padding: 16px;
+  }
+
+  .section1 .design h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 60px 24px 8px 0;
+  }
+
+  .section1 .design p {
+    font-size: 18px;
+    padding-bottom: 32px;
+  }
+
+  .right .section2 {
+    display: flex;
+  }
+
+  .section2 .design h2 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 70px 24px 8px 0;
+  }
+
+  .section2 .design p {
+    font-size: 18px
+  }
+
+  /*-- Footer --*/
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(227, 229, 229);
+  }
+
+}
